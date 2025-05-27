@@ -1,0 +1,53 @@
+
+/* Fondo general */
+body {
+  background-color: #e6f0fa;
+  color: #0b2545;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* Div principal */
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(11, 37, 69, 0.1);
+}
+
+/* Encabezados */
+h1, h2 {
+  color: #1b3b6f;
+}
+
+/* Tablas */
+.table {
+  background-color: #f0f8ff;
+  border: 1px solid #bcd4e6;
+}
+
+.table thead th {
+  background-color: #cfe2f3;
+  color: #0b2545;
+}
+
+.table td, .table th {
+  text-align: center;
+}
+
+/* Pestañas  */
+.nav-tabs .nav-link {
+  color: #1b3b6f;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #a9cbe8;
+  color: #0b2545;
+  border-color: #a9cbe8 #a9cbe8 transparent;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: #d3e6f5;
+  color: #0b2545;
+}
